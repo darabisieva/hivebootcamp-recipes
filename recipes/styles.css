@@ -1,11 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
     color: green;
     background-color: tan;
+    padding: 20px 10px;
+    margin: 15px 0;
+
 }
+
 h2 {
     background-color: tan;
     color: brown;
+    font-size: 40px;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+
+
 }
+
+.img_wrapper {
+    width: 800px;
+}
+
+.img_wrapper img {
+    width: 100%;
+}
+
+.list {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
